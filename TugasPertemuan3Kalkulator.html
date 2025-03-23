@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Sederhana</title>
+    <link rel="stylesheet" href="Kalkulator.css">
+    <script src="TugasPertemuan3KalkulatorJS.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Kalkulator Biasa Aja </h2>
+        <label>Masukkan Angka (Pisahkan Dengan Koma):</label>
+        <input type="text" id="angka" placeholder="Misalnya: 1,2,3">
+        
+        <label>Pilih Operator:</label>
+        <select id="operator">
+            <option value="+">Tambah (+)</option>
+            <option value="-">Kurang (-)</option>
+            <option value="*">Kali (*)</option>
+            <option value="/">Bagi (/)</option>
+            <option value="%">Modulus (%)</option>
+        </select>
+        
+        <button onclick="hitung()">Hitung</button>
+        <p id="hasil"></p>
+    </div>
+</body>
+</html>
